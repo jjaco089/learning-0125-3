@@ -1,5 +1,5 @@
 class Item {
-    private String id;
+    protected String id;
     void view() {
         System.out.print(id + " ");
     }
