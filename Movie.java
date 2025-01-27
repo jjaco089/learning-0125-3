@@ -9,6 +9,7 @@ class Movie extends Item {
         this.studio = studio;
     }
     void view() {
+        super.view();
         System.out.print(id + " " + title + " " + studio);
     }
 }
